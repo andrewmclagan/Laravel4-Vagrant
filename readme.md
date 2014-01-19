@@ -72,6 +72,10 @@ Vagrant is [very well documented](http://vagrantup.com/v1/docs/index.html) but h
 * `vagrant halt` attempts a graceful shutdown of the machine and will need to be brought back with `vagrant up`
 * `vagrant ssh` gives you shell access to the virtual machine
 
+### Ngrok
+
+Ngrok creates a tunnel from the public internet (http://subdomain.ngrok.com) to a website on your local machine. You can give this URL to anyone to allow them to try out a website you're developing without doing any deployment. For all the features and documentation, check their site: http://ngrok.com and usage guide: http://ngrok.com/usage.
+
 ----
 ##### Virtual Machine Specifications #####
 
