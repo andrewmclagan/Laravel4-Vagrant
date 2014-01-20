@@ -24,8 +24,7 @@ include phpmyadmin
 include beanstalkd
 include redis
 include memcached
-
-include laravel_app
+include ngrok
 
 class { 'postgresql::server':
   config_hash => {
