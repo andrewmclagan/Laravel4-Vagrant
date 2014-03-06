@@ -25,7 +25,6 @@ include beanstalkd
 include redis
 include memcached
 include ngrok
-include nodejs
 
 class { 'postgresql::server':
   config_hash => {
